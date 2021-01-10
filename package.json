@@ -1,0 +1,9 @@
+{
+  "name": "date-fns-extensions",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "type": "module",
+  "dependencies": {
+    "date-fns": "2.16.1"
+  }
+}
