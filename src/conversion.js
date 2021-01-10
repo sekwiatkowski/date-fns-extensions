@@ -1,4 +1,4 @@
-//#region Larger unit
+// To larger units
 export function millisecondsToSecond(ms) {
     return ms / 1_000
 }
@@ -14,9 +14,8 @@ export function minutesToHours(minutes) {
 export function hoursToDays(hours) {
     return hours / 24
 }
-//#endregion
 
-//region Smaller unit
+// To smaller units
 export function secondsToMilliseconds(seconds) {
     return seconds * 1_000
 }
@@ -32,4 +31,3 @@ export function hoursToMinutes(hours) {
 export function daysToHours(days) {
     return days * 24
 }
-//endregion

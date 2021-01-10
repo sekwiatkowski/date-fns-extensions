@@ -1,3 +1,6 @@
+import {addMilliseconds} from 'date-fns/fp'
+import {daysToHours, hoursToMinutes, minutesToSeconds, secondsToMilliseconds} from './conversion'
+
 export function inMilliseconds(milliseconds) {
     return addMilliseconds(milliseconds) (new Date())
 }
