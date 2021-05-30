@@ -6,22 +6,12 @@ import {
     exactDifferenceInSeconds
 } from './exact-difference'
 
-export function elapsedMilliseconds(d) {
-    return exactDifferenceInMinutes(new Date(), d)
-}
+export const elapsedMilliseconds = exactDifferenceInMilliseconds(new Date())
 
-export function elapsedSeconds(d) {
-    return exactDifferenceInMilliseconds(new Date(), d)
-}
+export const elapsedSeconds = exactDifferenceInSeconds(new Date())
 
-export function elapsedMinutes(d) {
-    return exactDifferenceInSeconds(new Date(), d)
-}
+export const elapsedMinutes = exactDifferenceInMinutes(new Date())
 
-export function elapsedHours(d) {
-    return exactDifferenceInHours(new Date(), d)
-}
+export const elapsedHours = exactDifferenceInHours(new Date())
 
-export function elapsedDays(d) {
-    return exactDifferenceInDays(new Date(), d)
-}
+export const elapsedDays = exactDifferenceInDays(new Date())
